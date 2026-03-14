@@ -20,3 +20,19 @@ Returns a list of users from the system.
 ```bash
 curl https://api.example.com/users
 ```
+
+#### Example Response
+
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane"
+    },
+    {
+      "id": 2,
+      "name": "Alex"
+    }
+  ]
+}
