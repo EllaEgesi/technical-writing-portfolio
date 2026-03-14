@@ -14,3 +14,9 @@ In this example, the API allows users to retrieve a list of users from the syste
 Description
 
 Returns a list of users from the system.
+
+#### Example Request
+
+```bash
+curl https://api.example.com/users
+```
