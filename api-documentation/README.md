@@ -47,3 +47,10 @@ curl https://api.example.com/users
     }
   ]
 }
+#### Error Responses
+
+| Status Code | Description |
+|-------------|-------------|
+| 400 | Bad request |
+| 401 | Unauthorized (missing or invalid API key) |
+| 500 | Internal server error |
